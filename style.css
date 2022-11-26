@@ -81,6 +81,14 @@ article em{
     font-style: normal;
 }
 
+.post-name{
+    color: var(--darkGrayishBlue);
+}
+
+.gc-name{
+    color: var(--blue);
+ }
+
 .time{
     margin-top: 2px;
     color: var(--grayishBlue);
