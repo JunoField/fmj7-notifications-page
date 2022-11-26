@@ -48,7 +48,8 @@ header label{
 }
 
 article{
-    background-color: var(--lightGrayishBlue1);
+    background-color: var(--veryLightGrayishBlue);
+    border-radius: 10px;
     margin-bottom: 11px;
     margin-inline: 8px;
 
@@ -59,5 +60,28 @@ article{
 article img{
     width: 40px;
     height: 40px;
+    margin-right: 13px;
 }
 
+article h2{
+    margin-top: 0px;
+    font-weight: 500;
+    font-size: 1em;
+    color: var(--darkGrayishBlue);
+    margin-bottom: 0px;
+}
+
+article b{
+    font-weight: 800;
+    color: var(--veryDarkBlue);
+}
+
+article em{
+    font-weight: 800;
+    font-style: normal;
+}
+
+.time{
+    margin-top: 2px;
+    color: var(--grayishBlue);
+}
