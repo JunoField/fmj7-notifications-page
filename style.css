@@ -112,3 +112,21 @@ article em{
     bottom: 0px;
     font-size: 10px;
 }
+
+
+@media only screen and (min-width: 700px){
+    body{
+        background-color: var(--veryLightGrayishBlue);
+        font-size: 16px;
+    }
+
+    .notification-page{
+        background-color: white;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        width: 731px;
+    }
+
+}
