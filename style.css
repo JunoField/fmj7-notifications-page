@@ -55,6 +55,7 @@ article{
 
     display: flex;
     padding: 15px;
+    padding-right: 11px;
 }
 
 article img{
@@ -90,6 +91,24 @@ article em{
  }
 
 .time{
-    margin-top: 2px;
+    margin-top: 3px;
     color: var(--grayishBlue);
+}
+
+.msg-content{
+    margin: 12px 0px 0px 0px;
+    border: 1px solid var(--lightGrayishBlue2);
+    padding: 15px;
+}
+
+.post-img{
+    margin-right: 0px;
+}
+
+
+.attribution{
+    position: fixed;
+    right: 0px;
+    bottom: 0px;
+    font-size: 10px;
 }
