@@ -126,7 +126,24 @@ article em{
         left: 50%;
         top: 50%;
         transform: translate(-50%, -50%);
+        box-sizing: border-box;
         width: 731px;
+        padding-inline: 20px;
+        background-color: red;
+    }
+
+    header{
+        margin-top: 18px;
+        margin-bottom: 15px;
+        padding-inline: 11px;
+    }
+
+    header h1{
+        font-size: 1.5em;
+    }
+
+    .notif-qty{
+        font-size: 1em;
     }
 
 }
