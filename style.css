@@ -58,16 +58,13 @@ article{
     padding-right: 14px;
 }
 
-/*
-article.dot{
-    display: none;
-}
-*/
 
+/*display unread notifs in slightly darker colour*/
 .unread{
     background-color: var(--veryLightGrayishBlue);
 }
 
+/*display dot after notif description if unread*/
 .unread h2::after{
     content: url("./assets/images/dot.svg");
     margin-left: 7px;
@@ -91,6 +88,14 @@ article h2{
 article b{
     font-weight: 800;
     color: var(--veryDarkBlue);
+}
+
+article b::after{
+    content: "\00a0";
+}
+
+article em::before{
+    content: "\00a0";
 }
 
 article em{
@@ -145,7 +150,7 @@ article em{
         box-sizing: border-box;
         width: 731px;
         padding-inline: 20px;
-        background-color: red;
+        border-radius: 20px;
     }
 
     header{
@@ -164,11 +169,17 @@ article em{
 
     article{
         padding: 18px;
+        padding-bottom: 16px;
     }
 
     article img{
         width: 46px;
         height: 46px;
     }
+
+    article h2{
+        margin-top: 1px;
+    }
+
 
 }
