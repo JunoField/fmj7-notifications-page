@@ -48,14 +48,30 @@ header label{
 }
 
 article{
-    background-color: var(--veryLightGrayishBlue);
+    background-color: white;
     border-radius: 10px;
     margin-bottom: 11px;
     margin-inline: 8px;
 
     display: flex;
     padding: 15px;
-    padding-right: 11px;
+    padding-right: 14px;
+}
+
+/*
+article.dot{
+    display: none;
+}
+*/
+
+.unread{
+    background-color: var(--veryLightGrayishBlue);
+}
+
+.unread h2::after{
+    content: url("./assets/images/dot.svg");
+    margin-left: 7px;
+    margin-bottom: 3px;
 }
 
 article img{
@@ -144,6 +160,15 @@ article em{
 
     .notif-qty{
         font-size: 1em;
+    }
+
+    article{
+        padding: 18px;
+    }
+
+    article img{
+        width: 46px;
+        height: 46px;
     }
 
 }
