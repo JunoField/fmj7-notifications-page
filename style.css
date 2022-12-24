@@ -111,6 +111,10 @@ article em{
     color: var(--blue);
  }
 
+ .clickable:hover{
+    color: var(--blue);
+ }
+
 .time{
     margin-top: 3px;
     color: var(--grayishBlue);
@@ -119,7 +123,12 @@ article em{
 .msg-content{
     margin: 12px 0px 0px 0px;
     border: 1px solid var(--lightGrayishBlue2);
+    border-radius: 5px;
     padding: 15px;
+}
+
+.msg-content:hover{
+    background-color: var(--lightGrayishBlue2);
 }
 
 .post-img{
