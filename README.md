@@ -48,5 +48,5 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/JunoField)
+- Frontend Mentor - [@JunoField](https://www.frontendmentor.io/profile/JunoField)
 - GitHub - [@JunoField](https://www.github.con/JunoField)
