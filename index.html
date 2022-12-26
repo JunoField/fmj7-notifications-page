@@ -6,6 +6,7 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" type="text/css" href="./style.css">
+    <script src="./readStatus.js" defer></script>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,8 +18,8 @@
     <main class="notification-page">
         <header>
             <h1>Notifications</h1>
-            <div class="notif-qty">3</div>
-            <label class="clickable">Mark all as read</label>
+            <div class="notif-qty" id="notif-qty">-1</div>
+            <label class="clickable" id="mark-all-as-read-button">Mark all as read</label>
         </header>
 
 
