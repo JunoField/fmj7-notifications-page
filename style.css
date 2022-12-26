@@ -149,14 +149,15 @@ article em{
     body{
         background-color: var(--veryLightGrayishBlue);
         font-size: 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
     }
 
     .notification-page{
         background-color: white;
-        position: absolute;
-        left: 50%;
-        top: 50%;
-        transform: translate(-50%, -50%);
         box-sizing: border-box;
         width: 731px;
         padding-inline: 20px;
